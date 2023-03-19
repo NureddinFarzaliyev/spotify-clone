@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'font-light';
+    src: url('../public/CircularStd-Light.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'font-medium';
+    src: url('../public/CircularStd-Medium.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'font-bold';
+    src: url('../public/CircularStd-Bold.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'font-black';
+    src: url('../public/CircularStd-Black.otf') format('opentype');
+}

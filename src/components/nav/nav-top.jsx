@@ -1,5 +1,5 @@
 import React from 'react'
-import { redirect } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 import { Images } from '../images'
 import { AiFillHome, AiFillPlusSquare, AiFillHeart } from 'react-icons/ai'
@@ -18,37 +18,39 @@ const NavTop = () => {
         )
     }
 
-    const clickHandler = () => {
-        redirect('/')
-    }
-
     return (
         <div className='text-white'>
             {/* Logo */}
-            <div className=' flex items-center justify-start mb-6'>
+            <Link to='/' className=' flex items-center justify-start mb-6'>
                 <img src={Images.Logo} alt="logo" height='50' width='50' />
                 <p className='font-font-medium text-2xl ml-2'>Spotify</p>
-            </div>
+            </Link>
 
             {/* Buttons 1 */}
-            <button onClick={clickHandler} className='mt-4 cursor-pointer text-gray-text hover:text-white transition duration-300'>
-                <div className='font-font-medium flex items-centers'>
-                    <AiFillHome className='text-2xl mr-3' />
-                    <p className='mt-1'>Home</p>
+            <Link to='/'>
+                <div className='mt-4 cursor-pointer text-gray-text hover:text-white transition duration-300'>
+                    <div className='font-font-medium flex items-centers'>
+                        <AiFillHome className='text-2xl mr-3' />
+                        <p className='mt-1'>Home</p>
+                    </div>
                 </div>
-            </button>
-            <div className='mt-4 cursor-pointer text-gray-text hover:text-white transition duration-300'>
-                <div className='font-font-medium flex items-centers'>
-                    <FiSearch className='text-2xl mr-3' />
-                    <p className='mt-1'>Search</p>
+            </Link>
+            <Link to='/search'>
+                <div className='mt-4 cursor-pointer text-gray-text hover:text-white transition duration-300'>
+                    <div className='font-font-medium flex items-centers'>
+                        <FiSearch className='text-2xl mr-3' />
+                        <p className='mt-1'>Search</p>
+                    </div>
                 </div>
-            </div>
-            <div className='mt-4 cursor-pointer text-gray-text hover:text-white transition duration-300'>
-                <div className='font-font-medium flex items-centers'>
-                    <svg className='mr-3' fill='#B3B3B3' role="img" height="24" width="24" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-encore-id="icon"><path d="M14.5 2.134a1 1 0 011 0l6 3.464a1 1 0 01.5.866V21a1 1 0 01-1 1h-6a1 1 0 01-1-1V3a1 1 0 01.5-.866zM16 4.732V20h4V7.041l-4-2.309zM3 22a1 1 0 01-1-1V3a1 1 0 012 0v18a1 1 0 01-1 1zm6 0a1 1 0 01-1-1V3a1 1 0 012 0v18a1 1 0 01-1 1z"></path></svg>
-                    <p className='mt-1'>Your Library</p>
+            </Link>
+            <Link to='/library'>
+                <div className='mt-4 cursor-pointer text-gray-text hover:text-white transition duration-300'>
+                    <div className='font-font-medium flex items-centers'>
+                        <svg className='mr-3' fill='#B3B3B3' role="img" height="24" width="24" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-encore-id="icon"><path d="M14.5 2.134a1 1 0 011 0l6 3.464a1 1 0 01.5.866V21a1 1 0 01-1 1h-6a1 1 0 01-1-1V3a1 1 0 01.5-.866zM16 4.732V20h4V7.041l-4-2.309zM3 22a1 1 0 01-1-1V3a1 1 0 012 0v18a1 1 0 01-1 1zm6 0a1 1 0 01-1-1V3a1 1 0 012 0v18a1 1 0 01-1 1z"></path></svg>
+                        <p className='mt-1'>Your Library</p>
+                    </div>
                 </div>
-            </div>
+            </Link>
 
             {/* Buttons 2 */}
             <div className='mt-10'>

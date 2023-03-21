@@ -1,0 +1,20 @@
+/* Hover for nav home nav elements */
+.goBack{
+    opacity: 0;
+    transition-property: opacity;
+    transition-duration: .4s;
+}
+
+.goForward{
+    opacity: 0;
+    transition-property: opacity;
+    transition-duration: .4s;
+}
+
+.goForwardButton:hover + .goForward{
+    opacity: 100;
+}
+
+.goBackButton:hover + .goBack{
+    opacity: 100;
+}

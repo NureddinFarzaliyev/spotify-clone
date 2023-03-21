@@ -5,7 +5,7 @@ import NavBottom from './nav-bottom'
 
 const Nav = () => {
     return (
-        <div className='nav-wrapper p-6 bg-bg-1 h-[100vh] w-[14rem] overflow-hidden'>
+        <div className='nav-wrapper p-6 bg-bg-1 h-[100vh] w-[30vw] lg:w-[18vw] overflow-hidden'>
             <NavTop />
             <hr className='mt-4 border-gray-900' />
             <NavBottom />

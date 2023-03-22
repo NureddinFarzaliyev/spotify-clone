@@ -24,3 +24,7 @@
     background-color: rgba(179, 179, 179, .4);
     border: none;
 }
+
+body{
+    overflow-x: hidden;
+}

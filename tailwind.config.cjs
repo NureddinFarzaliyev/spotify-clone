@@ -15,6 +15,7 @@ module.exports = {
         'bg-1': '#000000',
         'bg-2': '#121212',
         'bg-3': '#181818',
+        'bg-4': '#282828',
         'button-gradient': 'linear-gradient(to bottom, #323232, #303030)',
         'gray-text': '#B3B3B3',
       }

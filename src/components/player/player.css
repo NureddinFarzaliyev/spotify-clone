@@ -1,0 +1,18 @@
+.heartIcon:hover + .heartText{
+    display: block;
+}
+
+input[type=range]{
+    appearance: none;
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+    height: 2px;
+    background-color: gray;
+    border-radius: 1px;
+}
+
+input[type=range]::-webkit-slider-thumb {
+    display: none;
+}
+  

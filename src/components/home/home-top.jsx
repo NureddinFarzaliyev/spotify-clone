@@ -10,9 +10,6 @@ const HomeTop = () => {
             <div className='flex shadow-xl transition-all duration-900 hover:bg-neutral-700 playlistMenuButton h-20 relative bg-bg-4 rounded-md items-center overflow-hidden cursor-pointer'>
                 <img src={image} alt="" className='h-20' />
                 <div className='text-white ml-2 font-font-medium'>{name}</div>
-                {/* <div className='playlistMenuPlayButton text-green-600 text-5xl shadow-lg right-2 absolute rounded-full'>
-                    <AiFillPlayCircle />
-                </div> */}
             </div>
         )
     }

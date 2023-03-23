@@ -25,7 +25,7 @@ const Player = () => {
     }
 
     return (
-        <div className='absolute bottom-0 h-24 w-[100vw] bg-bg-3 border-t-2 border-t-neutral-800'>
+        <div className='hidden lg:block lg:absolute bottom-0 h-24 w-[100vw] bg-bg-3 border-t-2 border-t-neutral-800'>
             <div className='flex items-center justify-between px-5 h-[100%]'>
                 <div className='flex items-center h-[100%] w-72'>
                     <div>
@@ -64,7 +64,7 @@ const Player = () => {
                 </div>
 
 
-                <div className='w-52 text-gray-text flex items-center justify-center'>
+                <div className='w-72 text-gray-text flex items-center justify-center'>
                     <div className='flex w-16 justify-between'>
                         <TbMicrophone2 className='cursor-pointer hover:text-white' />
                         <MdOutlineQueue className='cursor-pointer hover:text-white' />

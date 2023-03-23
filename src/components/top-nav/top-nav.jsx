@@ -12,7 +12,7 @@ const HomeNav = () => {
     }
 
     return (
-        <div className='absolute z-10 w-[70vw] ml-[30vw] top-0 lg:w-[82vw] px-10 lg:ml-[18vw] flex h-16 justify-between items-center'>
+        <div className='absolute opacity-0 lg:opacity-100 z-10 w-[70vw] ml-[30vw] top-0 lg:w-[82vw] px-10 lg:ml-[18vw] flex h-16 justify-between items-center'>
             <div className='flex justify-center mt-10 items-center'>
                 <div>
                     <div className='goBackButton bg-bg-1 text-lg cursor-pointer text-white w-7 h-7 rounded-full flex items-center justify-center' >

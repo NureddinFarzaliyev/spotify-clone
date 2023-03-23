@@ -20,3 +20,12 @@
 }
 
 
+@media (max-width: 1000px) {
+    .HomeSlider div:nth-child(5){
+        display: none;
+    }
+    
+    .HomeSlider div:nth-child(3){
+        display: none;
+    }
+}

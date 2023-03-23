@@ -5,6 +5,7 @@ import Home from './components/home/home'
 import Nav from './components/nav/nav'
 import HomeNav from './components/top-nav/top-nav'
 import Player from './components/player/player'
+import MobilePlayer from './components/mobile-player/mobile-player'
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path='/home' element={<Home />} />
         </Routes>
         <Player />
+        <MobilePlayer />
       </BrowserRouter>
     </div>
   )

@@ -1,7 +1,12 @@
-### Under Construction
+# Spotify Clone with React
+Made with **React.js**, **Tailwindcss**.
+Project created using **Vite.js**.
 
-**SPOTIFY CLONE PROJECT ISN'T COMPLETE YET**
+This project isn't complete yet.
 
-**FOLLOW MY ACCOUNT FOR UPDATES**
+**TO-DO**
+1. Search page
+2. Library page
+3. Playlist page
 
-https://github.com/NureddinFarzaliyev/spotify-clone.git
+![](https://github.com/NureddinFarzaliyev/spotify-clone/blob/master/public/desktop-home.png)

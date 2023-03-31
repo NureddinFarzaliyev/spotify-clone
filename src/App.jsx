@@ -2,6 +2,8 @@ import './App.css'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
 import Home from './components/home/home'
+import Search from './components/search/search'
+
 import Nav from './components/nav/nav'
 import HomeNav from './components/top-nav/top-nav'
 import Player from './components/player/player'
@@ -16,6 +18,7 @@ function App() {
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/home' element={<Home />} />
+          <Route path='/search' element={<Search />} />
         </Routes>
         <Player />
         <MobilePlayer />

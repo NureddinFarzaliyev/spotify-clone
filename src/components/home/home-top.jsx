@@ -1,6 +1,5 @@
 import React from 'react'
 import { Albums } from '../images'
-import { AiFillPlayCircle } from 'react-icons/ai'
 import './home.css'
 
 const HomeTop = () => {

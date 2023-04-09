@@ -32,3 +32,4 @@ export const Images = {
 }
 
 export const Albums = [Album1, Album2, Album3, Album4, Album5, Album6, Album7, Album8, Album9, Album10]
+export const Albumsiki = [Album1, Album2, Album3, Album4, Album5, Album6, Album7, Album8, Album9, Album10]

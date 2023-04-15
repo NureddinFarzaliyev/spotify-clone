@@ -6,7 +6,7 @@ import RecentCard from './recent-card'
 const Recent = () => {
     return (
         <div>
-            <h1 className='text-white font-font-black text-2xl'>Recent Searches</h1>
+            <h1 className='text-white font-font-black text-2xl opacity-0 lg:opacity-100'>Recent Searches</h1>
             <div className='justify-between mt-5 hidden lg:flex lg:gap-5'>
                 <RecentCard name={'Avenged Sevenfold'} author={'Avenged Sevenfold'} image={Albums[2]} />
                 <RecentCard name={'Nightmare'} author={'Avenged Sevenfold'} image={Albums[0]} />

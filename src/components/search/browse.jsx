@@ -12,7 +12,7 @@ const Browse = () => {
                 <BrowseCard text={t2} />
                 <BrowseCard text={t3} />
                 <BrowseCard text={t1} />
-                <BrowseCard text={t2} className='opacity-0' />
+                <BrowseCard text={t2} />
             </div>
         )
     }
